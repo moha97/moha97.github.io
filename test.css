@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Mohammed Alghannam</title>
 <style>
 body{ background-color: #efefef;
         font-size: 80%;
@@ -216,50 +211,3 @@ body{ background-color: #efefef;
         color: white;
     }
 </style>
-    
-</head>
-<body>
-    <section class="back1">
-        <div class="pic">
-            <img src="man-falling-hi.png"; width="90px" height="120px">
-        </div>
-        <div class="header">
-            <h1 class="head1">
-        
-                    Mohammed Alghannam
-            </h1>
-        </div>
-        <ul class=" navigation">
-            <il><a href="#top" class="on">home</a></il>
-            <il><a href="#ham">About Me</a></il>
-            <il><a href="#hh">Hobbies</a></il>
-            <il><a href="#hd">Dreams</a></il>
-        </ul>
-    </section>
-    <div>
-        <h2 id="ham" class="ham"> About Me</h2>
-    </div>
-    <div>
-    <h2 id="hh" class="hh"> Hobbies</h2>
-     </div>
-    <div>
-        <h2 id="hd" class="hd">
-             Dreams
-         </h2>
-    </div>
-    <div class="pic2">
-        <img src="CL15.png"> 
-    </div>
-    <div class="body1">
-         Hi, I, Mohammed,as witten in the title.I hope i would be a successfull man and start my own bussiness in the feild of technolgy. this is the reason why i joined an HTML class ,here at CTD. the other reason is to expand my knowlege of coding, staring from HTML and going to infenity, becouse as you all know, The sky is not the limit anymore.
-    </div>
-    <div class="body2"></div>
-    <div class="body3"></div>
-    <div class="body4"></div>
-    <div class="body5"></div>
-    <div class="body6"></div>
-    <div class="second"></div>
-    <div class="third"></div>
-    <div class="fourth"></div>
-</body>
-</html>
