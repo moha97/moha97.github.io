@@ -1,0 +1,44 @@
+﻿*this file contain the content of the website. this may be changed.
+about site
+
+
+Anfodroid contains everything you need in the android world. it has tip,trick ,shortcuts,news, development tools and explanation that will help you navigate through the android world. this is android home.
+
+
+news
+this will be a sample of the content that will be on the site because news are always changing.
+New shots of HTC Butterfly S with dual-sim slots pop up on Twitter
+
+
+We have a new picture of a Butterfly S variant, courtesy of @leakschina. This particular variant appears to have a dual-sim slot, which pretty much guarantees it won’t see a US release. Regardless, if you need to pick up a dual-sim phone for travelling, the dual-sim Butterfly S sports all the great specs of the traditional variant, including a 1080p screen, UltraPixel camera, and quad-core Snapdragon processor.
+source: leakschina
+Motorola hints at fast Moto X camera
+Motorola tweeted something curious today. They posted some blurry shots of a kid on Twitter, saying today’s cameras were a bit too slow. After that video demonstrating some awesome new camera tricks the Moto X will supposedly have, I think it’s safe to say that Motorola is betting big on their new camera tech. Either that, or they’re just really disappointed in how slow smartphone cameras are and they’d really appreciate it if someone else could fix it. Guess we’ll find out soon. 
+via: 9to5 Google
+Grab a 16 GB Nexus 7 for $149 through Staples or 32 GB for $169
+I know what you’re thinking. Another Nexus 7 deal? Yep, these things are hitting are hitting the sale rack just about every week as we wait for Google to announce something to replace it. If you don’t mind not having the latest and greatest, though, Staples is selling the Nexus 7 for as little as $149 for the 16 GB, or $169 for the 32 GB with a coupon code. This is one of the lowest prices the tablet has dipped to, so if you’ve been meaning to pick one up, jump on this deal. These are also brand new, so no refurbished devices. Hit the links below to check it out if you want, and remember to use the code 20098 for the lowest possible price.
+Nexus 7 16 GB
+Nexus 7 32 GB
+source: Slickdeals
+What is Android SDK?
+
+
+Everyone wants to program on Android; unfortunately, not everyone knows quite how to get started with their development environment. Google has put out both the Android SDK and the Android ADT in order to help developers integrate Android into their dev environment as well as facilitate more Android development. In this guide, we’ll take a look at how to set up a development environment for Android so you can start creating projects. Android SDK and Android ADT are essentials that you will need to include in your Android Developer Toolbox for use with many things, and can be a very powerful set of components from the simple, to the complicated. When it comes to Android modding, most novice users are confused or left wondering by reference over reference to a certain “adb”. This is specially true when you are looking up something on modding your device, or root it in particular. ADB is the wonder toy of Android and everyone seems to love it, so lets have a look at understanding what it is and why you need it, and how you can get it.
+what is  AIDE - THE IDE FOR ANDROID ?
+
+
+AIDE is an integrated development environment (IDE) for developing real Android Apps directly on Android devices. AIDE supports the full edit-compile-run cycle: Write code with a feature-rich editor offering advanced features like code completion, real-time error checking, refactoring, smart code navigation, and run your App with a single click. AIDE will turn your Android tablet with a keyboard into a real development box. AIDE will turn your Android Phone into a small development computer to browse and touch up your code on the go.
+
+
+tips and tricks
+ Improve Google Now cards (Jelly Bean)
+Google Now is pretty useful right out of the box -- the more you use it, the better it will get at serving up useful information in an appropriate way (like pulling traffic and calendar information to figure out how long it'll take you to drive to your next engagement, for example). But if you're finding Google Now's abilities a little limited, try enabling Web history to give it more data to pull from. Visit history.google.com and click "Turn Web history on.” Before too long you'll be able to use Google Now for things such as sports scores and flight information. The service learns pretty quickly, too. For example, you'll find it letting you know what time you need to leave your house in order to make a flight. If the notifications become too distracting, you can adjust the priority level of each one from the Google Now screen. Just tap the three dots on the right side of the card to set it as normal (the phone will alert you with updates), low priority (the information will show up on the Google Now screen, but won't otherwise announce itself), or off.
+Offline voice typing (Jelly Bean)
+One of the big improvements in Jelly Bean was the ability to let your phone or tablet convert your speech to text. Phones have done that for a while now, but it generally meant sending your input over the air, doing the decoding in the cloud, and showing the result on your device. Android can now do the text generation itself -- which makes it a speedier process, and possible even without an Internet connection. Head over to "Language and Input" in the Settings app, then choose "Download offline speech recognition" under the "Voice Search" heading. You'll be prompted to download a language pack for each language you want Android to recognize; once that's done you'll be able to dictate text even if Google's servers go down or you've got poor reception.
+shortcuts
+Long-press to uninstall
+Long-pressing on an app within the app drawer lets you drag it to a Home screen, but it also pops up a couple of menus along the top of the screen. App Info gives you the boring technical stuff about how much memory it's taking up, or you can fling it off the other way to uninstall it.
+
+
+Stop app icons automatically appearing
+One of the many new ICS features is the way Google lets apps automatically add shortcuts to themselves on your Home screen when they've finished installing. It's useful, but if you're a control freak and wish to remain 100% in charge of your Home layout, head to the Google Play app's settings tab and untick the Auto-add Shortcuts toggle.
