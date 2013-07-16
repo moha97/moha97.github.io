@@ -187,6 +187,7 @@ li {
 	background-color: red;
 }
 /*tip*/
+
 .tips {
 	margin-top: 50px;
 	width: 100%;
@@ -194,6 +195,7 @@ li {
 	border: 2px solid black;
 }
 /*shortcut*/
+
 .shortcut {
 	margin-top: 50px;
 	width: 100%;
@@ -201,6 +203,7 @@ li {
 	border: 2px solid black;
 }
 /*tricks*/
+
 .tricks {
 	margin-top: 50px;
 	width: 100%;
@@ -210,27 +213,29 @@ li {
 /*VIDEO*/
 
 .video {
+	position: relative;
+	top: 0;
+	left: 0;
 	width: 960px;
 	height: 400px;
+	margin-top: 50px;
 	border: 2px solid black;
 	margin-right: auto;
 	margin-left: auto;
 }
 .videotutorial {
-	position: relative;
-	top: 0;
-	left: 0;
 	width: 300px;
 	height: 200px;
-	background-color: gray;
+	background-color: green;
 }
 .videotitle {
 	font-family: sans-serif;
 }
 .videodescription {
-	position: relative;
-	bottom: 0;
+	position: absolute;
+	top: 0;
 	right: 0;
+/*	float: right;*/
 	width: 500px;
 	height: 300px;
 	background-color: gray;
