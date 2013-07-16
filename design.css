@@ -9,6 +9,7 @@
 	height: 50px;
 	background-color: gray;
 	position: fixed;
+	z-index: 10;
 }
 .logo {
 	position: absolute;
@@ -23,9 +24,9 @@
 .header {
 	font-family: sans-serif;
 	font-weight: normal;
-	font-size: 20PX;
-	padding-left: 40PX;
-	padding-top: 10PX;
+	font-size: 20pX;
+	padding-left: 40pX;
+	padding-top: 10pX;
 }
 .deeplinks li {
 	position: relative;
@@ -72,32 +73,50 @@ li {
 
 /*HEADER*/
 .aboutsite {
+	background: url("archive-android-uffenorde.jpg");
 	width: 100%;
-	height: 400px;
-	background-color: lightblue;
-	z-index: 0;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
 }
 .aboutbox {
-	float: left;
-	width: 250spx;
-	height: 100px;
+	position: absolute;
+	top: 400px;
+	left:100px;
+	display: inline-block;
+	width: 300px;
+	height: 180px;
 	background-color: black;
 }
 .abouttitle {
+	text-align: center;
+	padding: 10px;
 	color: white;
 }
 .aboutcontent {
+	color: white;
+	padding: 15px;
 
 }
 /*FEATURES*/
-
+.background_color {
+	width:100%;
+	height: 2800px;
+	position: absolute;
+	top: 800px;
+	background-color: white;
+}
 .features {
 	width: 960px;
+	/*position: absolute;
+	top:1200px;
+	left: 0;*/
 	margin-left: auto;
 	margin-right: auto;
 }
 /*news*/
 .news {
+	margin-top: 50px;
 	width: 99%;
 	height: 400px;
 	border: 2px solid black;
@@ -131,34 +150,62 @@ li {
 
 .dev {
 	width: 100%;
+	margin-top: 50px;
 	height: 450px;
 	border: 2px solid black;
 }
-.firstdevcolume {
+.dev h2 {
+	/*display: inline-block;*/
+	vertical-align: top;
+}
+.firstdevcolumn {
 	width: 100%;
 	height: 220px;
 	position: relative;
 	top:0;
 }
-.seconddevcolume {
+.seconddevcolumn {
+	position: relative;
+	top: 0;
 	width: 100%;
 	height: 220px;
 }
-.devpic {
-	position: relative;
-	top: 0;
-	left:0;
-	width: 100px;
-	height: 120px;
+.featurepic {
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 200px;
+	height: 180px;
+	background-color: blue;
+}
+.featurecontent {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 400px;
+	height: 150px;
 	background-color: red;
 }
-.devcontent {
-	position: relative;
-	top: 0;
-	left:0;
-	width: 100px;
-	height: 120px;
-	background-color: red;
+/*tip*/
+.tips {
+	margin-top: 50px;
+	width: 100%;
+	height: 450px;
+	border: 2px solid black;
+}
+/*shortcut*/
+.shortcut {
+	margin-top: 50px;
+	width: 100%;
+	height: 450px;
+	border: 2px solid black;
+}
+/*tricks*/
+.tricks {
+	margin-top: 50px;
+	width: 100%;
+	height: 450px;
+	border: 2px solid black;
 }
 /*VIDEO*/
 
@@ -190,6 +237,9 @@ li {
 }
 /*FOOTER*/
  .footer {
+ 	position: absolute;
+ 	bottom: 0;
+ 	left: 0;
  	width: 100%;
  	height: 50px;
  }
