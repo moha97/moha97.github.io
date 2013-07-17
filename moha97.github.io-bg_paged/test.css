@@ -1,0 +1,276 @@
+<style>
+    .container{
+        max-width: 1800px;
+    }
+
+    body{ background-color: #efefef;
+        font-size: 80%;
+        font-family: "courier new" . courier .monospace ;
+        letter-spacing: 0.15em;
+        /*max-width: 940px;*/
+        min-width: 600px;
+
+        }
+
+    *{
+        margin: 0;
+        padding: 0;}
+    ul {
+        width: 570px;
+        padding: 15px;
+        margin: 0 auto 0 auto;
+        border-top: 2px solid white ;
+        border-bottom: 2px solid white ;
+        text-align: center;
+    }
+    li {
+        display: inline;
+        margin: 0 3px;
+    }
+    a{
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 6px18px 5px 18px;
+
+    }
+    a:hover, a.on{
+        color: #cc3333;
+        background-color: black;
+        }
+    .header {
+
+
+        text-align: center;
+        width: 600px ;
+        height: 30px;
+        border-left: 3px solid white;
+        border-right: 3px solid white;
+        top: 0;
+        margin-left:auto;
+        margin-right:auto;
+        width:70%;
+        padding: 10px;
+        margin-bottom: 50px;
+        margin-top: 0;
+
+
+
+        }
+    h1 {
+        display: inline-block;
+
+        }
+    .body1{
+        display: inline-block;
+        margin-top: 80px;
+        width: 300px;
+        height: 500px;
+        margin-top: 850px;
+        padding: 10px;
+        position:absolute;
+        right:10px;
+        top: 95px;
+        border: 3px solid #000;
+        color: black;
+        text-align: center;
+        font-family: "courier new" . courier .monospace ;
+        font-size: 23px;
+
+     }
+    .body2{
+
+        width: 300px;
+        height: 500px;
+        margin-top: 850px;
+        padding: 10px;
+        position: absolute;
+        top: 95px;
+        border: 3px solid #000;
+        margin-left: 10px ;
+
+
+    }
+    .body3{
+
+         width: 300px;
+        height: 500px;
+        margin-top: 1600px;
+        padding: 10px;
+        position: absolute;
+        top: 95px;
+        border: 3px solid #000;
+        margin-left: 10px ;
+    }
+    .body4{
+        display: inline-block;
+        width: 300px;
+        height: 500px;
+        margin-top: 1600px;
+        padding: 10px;
+        position:absolute;
+        right:10px;
+        top: 95px;
+        border: 3px solid #000;
+
+
+    }
+    .second{
+    background: url(Skynew1.jpg);
+
+    }
+    .third{
+            background: url(cute-twitter-backgrounds.jpg);
+
+    }
+    .fourth{
+        background: url(images.jpeg);
+        position:absolute;
+        left:0px;
+        top:0px;
+        z-index:-1;
+    }
+    .pic{
+
+        position: fixed;
+        top: 500px;
+        left: 600px;
+
+    }
+    .pic2 {
+        position: absolute;
+
+        top: 840px;
+        left: 480px ;
+
+    }
+    .pic4{
+         position: absolute;
+        top: 1540px;
+        left: 420px ;
+
+    }
+    .pic5{
+
+    }
+    .pic6{
+
+    }
+    .ham {
+        position: absolute;
+        display: inline;
+        top: 1200px;
+        left: 590px ;
+        color: black
+    }
+    .hh {
+        position: absolute;
+        display: inline;
+        top: 1900px;
+        left: 590px ;
+        color: black
+    }
+    .hd{
+        position: absolute;
+        display: inline;
+        top: 2800px;
+        left: 590px ;
+        color: black
+    }
+
+    .back1{
+        background: url(101.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100% 100%;
+        height: 800px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .body5{
+         width: 300px;
+        height: 500px;
+        margin-top: 2400px;
+        padding: 10px;
+        position: absolute;
+        top: 95px;
+        left: 0;
+        border: 3px solid #000;
+        margin-left: 10px ;
+    }
+    .body6 {
+         width: 300px;
+        height: 500px;
+        margin-top: 2400px;
+        padding: 10px;
+        position: absolute;
+        top: 95px;
+        right: 10px;
+        border: 3px solid #000;
+        margin-left: 10px ;
+    }
+    .txt1{
+        padding: 70px 10px 20px 10px;
+        text-align: auto;
+    }
+    .head1{
+        color: white;
+    }
+    .pic3{
+        text-align: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+    .back2{
+        background: url(animated-blue-sky.jpg);
+        background-position: center center;
+        background-size: 100% 100%;
+        height: 800px;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+    .back3{
+        background: url(Skynew1.jpg);
+        background-position: center center;
+        background-size: 100% 100%;
+        height: 800px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .spaceshiptthing {
+        width: 300px;
+        height:300px;
+    }
+    .back4{
+        background: url(sky-View_ForestWander.JPG);
+        background-position: center center;
+        background-size: 100% 100%;
+        height: 800px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .pic5{
+        text-align: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+    .txt2{
+        font-size: 22px;
+        padding: 10px 10px 20px 10px;
+        text-align: auto;
+    }
+    .pic6{
+        text-align: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+    .txt3{
+        font-size: 22px;
+        padding: 50px 10px 20px 10px;
+        text-align: auto;
+    }
+</style>
