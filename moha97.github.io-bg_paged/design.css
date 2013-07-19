@@ -1,73 +1,128 @@
+	
+body {
+	font-family: 'Roboto', sans-serif;
+	max-width: 1024px;
+}
+
 /*GENERAL*/
 * {
 	margin: 0;
 	padding: 0;
 }
+
 /*NAVIGATION*/
 .navigation {
 	width: 100%;
 	height: 50px;
-	background-color: gray;
+	background-color: #CBE86B;
 	position: fixed;
 	z-index: 10;
 }
+
 .logo {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 25px;
-	height: 30px;
-	background-color: white;
+	text-indent: -9999em;
+	background-size: 100% 100%;
+	width: 55px;
+	height: 40px;
+	background:url("patterns_landing.png");
 	margin-left: 10px;
-	margin-top: 10px;
+	margin-top: 5px;
 }
+
 .header {
-	font-family: sans-serif;
+	font-weight: bold;
+	margin-left: 35px;
 	font-weight: normal;
 	font-size: 20pX;
 	padding-left: 40pX;
 	padding-top: 10pX;
 }
+
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
 .deeplinks li {
 	position: relative;
-	top: -20px;
-	left: 30%;
+	top: -25px;
+	left:30%;
 	display: inline;
 	list-style-type: none;
 	padding-right: 20px;
 }
 
-li {
+.linksfornav a {
 	text-decoration: none;
-	margin-bottom: 30px;
+	color: black;
 }
+
+.linksfornav a:hover {
+	color: lightgreen;
+	background-color: black;
+	color:#dddddd;
+	border-radius: 5px;
+	padding: 3px 20px;
+	font-weight: bold;
+	font-size: 20px;
+	-webkit-transition: all 0.5s ease-in 0.5s;
+	-moz-transition: all 0.5s ease-in 0.5s;
+	-o-transition: all 0.5s ease-in 0.5s;
+	transition: all 0.5s ease-in 0.5s;
+}
+
+.linksfornav li {
+	text-decoration: none;
+	background: url(background.gif) #fff bottom left repeat-x;
+	height: 2em;
+	line-height: 2em;
+	float: left;
+	width: 5em;
+	display: block;
+	border: 0.1em solid #dcdce9;
+	color: #0d2474;
+	text-decoration: none;
+	text-align: center;
+}
+
 .facebook {
 	position: absolute;
 	top: 0;
 	right: 45px;
 	width: 20px;
 	height: 20px;
-	background-color: white;
+	text-indent: -9999em;
+	background-size: 100% 100%;
+	background:url("facebooklogo.png");
 	margin-top: 10px;
-
 }
+
 .twitter {
 	position: absolute;
+	text-indent: -9999em;
+	background-size: 100% 100%;
 	top: 0;
 	right: 20px;
 	width: 20px;
 	height: 20px;
-	background-color: white;
+	background:url("Twitter-Logo.png");
 	margin-top: 10px;
-
+	z-index: 10;
 }
+
 .help {
 	position: absolute;
 	top: 0;
 	right: 5px;
 	width: 10px;
 	height: 10px;
-	background-color: white;
+	text-indent: -9999em;
+	background-size: 100% 100%;
+	background:url("help.png");
 	margin-top: 15px;
 }
 
@@ -75,18 +130,21 @@ li {
 .aboutsite {
 	background: url("archive-android-uffenorde.jpg");
 	width: 100%;
+	background-position: center center;
 	height: 100%;
 	position: fixed;
 	z-index: -1;
 }
+
 .aboutbox {
 	position: absolute;
 	top: 400px;
-	left:100px;
+	left:154px;
 	display: inline-block;
+	border-radius: 10px;
 	width: 300px;
-	height: 180px;
-	background-color: black;
+	height: 200px;
+	background-color: rgba(28,20,13,.5);
 }
 .abouttitle {
 	text-align: center;
@@ -96,194 +154,309 @@ li {
 .aboutcontent {
 	color: white;
 	padding: 15px;
-
 }
+
 /*FEATURES*/
-.background_color {
+.container {
 	width:100%;
-	height: 2800px;
+	height: 2380px;
 	position: absolute;
 	top: 800px;
-	background-color: white;
+	background-color:#F2E9E1  ;
 }
+
 .features {
 	width: 960px;
-	/*position: absolute;
-	top:1200px;
-	left: 0;*/
 	margin-left: auto;
 	margin-right: auto;
 }
-/*news*/
-.news {
-	margin-top: 50px;
-	width: 99%;
-	height: 400px;
+
+.featurepic {
+	float: left;
+	margin-top: 32px;
+	margin-left: 10px;
+	width: 200px;
+	height: 180px;
 	border: 2px solid black;
 
 }
-.firstnewscolume {
-	margin-top: 20px;
-	display: inline-block;
-	width: 30%;
-	height: 360px;
-	border: 2px solid black;
-	margin-left: 19px;
-}
-.secondnewscolume {
-	margin-top: 20px;
-	display: inline-block;
-	width: 30%;
-	height: 360px;
-	border: 2px solid black;
-	margin-left: 19px
-}
-.thirdnewscolume {
-	margin-top: 20px;
-	display: inline-block;
-	width: 30%;
-	height: 360px;
-	border: 2px solid black;
-	margin-left: 19px;
-}
-/*dev*/
 
-.dev {
-	width: 100%;
-	margin-top: 50px;
-	height: 450px;
-	border: 2px solid black;
+.featurecontent {
+	display: inline-block;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 690px;
+	height: 150px;
 }
-.dev h2 {
-	/*display: inline-block;*/
-	vertical-align: top;
-}
+
 .firstdevcolumn {
+	text-align:center;
 	width: 100%;
 	height: 220px;
 	position: relative;
 	top:0;
 }
+
 .seconddevcolumn {
 	position: relative;
 	top: 0;
 	width: 100%;
 	height: 220px;
 }
-.featurepic {
-	float: left;
+
+.featuretitle {
 	margin-top: 10px;
-	margin-left: 10px;
-	width: 200px;
-	height: 180px;
+	text-indent: 20px;
+
+}
+/*news*/
+.news {
+	border-radius: 10px;
+	margin-top: 50px;
+	background-color: white;
+	width: 100%;
+	border: 2px solid black;
+
+}
+
+.newscolumntitle {
+	margin-top: 30px;
+	margin-left: 45%;
+}
+
+.news:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+.newscolumn {
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 20px;
+	float: left;
+	width: 29%;
+	height: 360px;
+	border: 2px solid black;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 20px;
+}
+
+.newscontent {
+	margin-top: 20px;
+}
+
+/*dev*/
+.dev { 
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	width: 960px;
+	height: auto;
+	border-radius: 10px;
+	background-color: white;
+	margin-top: 50px;
+	height: 470px;
 	border: 2px solid black;
 }
-.featurecontent {
-	display: inline-block;
-	margin-top: 10px;
-	margin-left: 20px;
-	width: 400px;
-	height: 150px;
-	background-color: red;
+
+.dev h2 {
+	/*display: inline-block;*/
+	vertical-align: top;
 }
-/*tip*/
+
+/*tip and tricks*/
 
 .tips_and_tricks {
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	background-color: white;
 	margin-top: 50px;
-	width: 100%;
-	height: 450px;
+	width: 960px;
+	height: 470px;
 	border: 2px solid black;
 }
 /*shortcut*/
 
 .shortcut {
-	margin-top: 50px;
-	width: 100%;
-	height: 450px;
-	border: 2px solid black;
-}
-/*VIDEO*/
-
-.video {
-	position: relative;
-	top: 0;
-	left: 0;
-	width: 960px;
-	height: 400px;
-	margin-top: 50px;
-	border: 2px solid black;
 	margin-right: auto;
 	margin-left: auto;
+	border-radius: 10px;
+	background-color: white;
+	margin-top: 50px;
+	width: 960px;
+	height: 470px;
+	border: 2px solid black;
 }
-.videotutorial {
-	
-}
-.videotitle {
-	font-family: sans-serif;
-}
-.videodescription {
-	position: absolute;
-	top: 0;
-	right: 0;
-/*	float: right;*/
-	width: 500px;
-	height: 300px;
-	background-color: gray;
-}
+
 /*FOOTER*/
+
  .footer {
  	position: absolute;
- 	bottom: 0;
+ 	background-color: #CBE86B;
+ 	bottom: -2700px;
  	left: 0;
  	width: 100%;
  	height: 50px;
  }
+
  .footercontent {
-	font-family: sans-serif;
 	font-weight: normal;
 	font-size: 20PX;
 	padding-left: 40PX;
 	padding-top: 10PX;
-}
-.deeplinksfooter li {
-	position: relative;
-	bottom: -20px;
-	left: 30%;
-	display: inline;
-	list-style-type: none;
-	padding-right: 20px;
-}
+ }
 
-li {
-	text-decoration: none;
-	margin-bottom: 30px;
-}
-.facebookfooter {
-	position: absolute;
-	bottom: 0;
-	right: 45px;
-	width: 20px;
-	height: 20px;
-	background-color: white;
-	margin-top: 10px;
+	.deeplinksfooter li {
+		position: relative;
+		bottom: 30px;
+		left: 30%;
+		display: inline;
+		list-style-type: none;
+		padding-right: 20px;
+	}
 
-}
-.twitterfooter {
-	position: absolute;
-	bottom: 0;
-	right: 20px;
-	width: 20px;
-	height: 20px;
-	background-color: white;
-	margin-top: 10px;
+	.linksforfooter a {
+		text-decoration: none;
+	}
 
-}
-.helpfooter {
-	position: absolute;
-	bottom: 0;
-	right: 5px;
-	width: 10px;
-	height: 10px;
-	background-color: white;
-	margin-top: 15px;
-}
+	.linksforfooter  {
+		text-decoration: none;
+		background: url(background.gif) #fff bottom left repeat-x;
+		height: 2em;
+		line-height: 2em;
+		float: left;
+		width: 9em;
+		display: block;
+		border: 0.1em solid #dcdce9;
+		color: #0d2474;
+		text-decoration: none;
+		text-align: center;
+	}
+
+	.facebookfooter {
+		position: absolute;
+		bottom: 15px;
+		right: 45px;
+		width: 20px;
+		height: 20px;
+		text-indent: -9999em;
+		background-size: 100% 100%;
+		background:url("facebooklogo.png");
+		margin-top: 10px;
+
+	}
+
+	.twitterfooter {
+		position: absolute;
+		bottom: 15px;
+		right: 20px;
+		width: 20px;
+		height: 20px;
+		text-indent: -9999em;
+		background-size: 100% 100%;
+		background:url("Twitter-Logo.png");
+		margin-top: 10px;
+
+	}
+
+	.helpfooter {
+		position: absolute;
+		bottom: 18px;
+		right: 5px;
+		width: 10px;
+		height: 10px;
+		text-indent: -9999em;
+		background-size: 100% 100%;
+		background:url("help.png");
+		margin-top: 15px;
+	}
+
+	@media screen and (max-width: 600px) {
+	
+		.linksforfooter {
+			font-size: 10px;
+			width: 7em;
+			height:2em;
+		}
+
+		.footercontent {
+			font-size: 14px;
+			padding-left: 5px;
+		}
+
+		.deeplinks li {
+			font-size: 12px;
+			padding: 1px;
+			top: -24px;
+			left: 200px;
+		}
+
+		body {
+			width: 600px;
+		}
+
+		.aboutsite {
+			display: none;
+		}
+
+		.container {
+			height: 4100px;
+			position: absolute;
+			top: 20px;
+		}
+
+		.news {
+			width: 50%;
+			height: 100%;
+			margin-left: 25%;
+		}
+
+		.newscolumn {
+			clear: both;
+			margin: 25%;
+			width: 50%;
+			height: 70%;
+		}
+
+		.featurepic {
+			display: none;
+		}
+
+		.featurecontent {
+			width: 60%;
+			height: 30%
+		}
+
+		.dev {
+			width: 500px;
+			height: 600px;
+
+		}
+
+		.tips_and_tricks{
+			width: 500px;
+			height: 900px;
+
+		}
+
+		.shortcut {
+			width: 500px;
+			height: 420px;
+
+		}
+
+		.featuretitle {
+			font-size: 100%
+		}
+		
+		.footer {
+			position: absolute;
+			bottom: -4000px;
+			left: 0;
+		}
+	}

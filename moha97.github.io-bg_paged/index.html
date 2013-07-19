@@ -1,47 +1,48 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
 <html>
 <head>
+<meta charset="utf-8">
 	<title>Anfodroid</title>
 	<link rel="stylesheet" type="text/css" href="design.css" />
+	<link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <nav class="navigation">
 	<figure class="logo">
 	</figure>
 	<div class="header">
-		ANDODROID
+		ANFODROID
 	</div>
-	<ul class="deeplinks">
-		<li><a href="#">TOP</a></li>
-		<li><a href="#">News</a></li>
-		<li><a href="#">DEV</a></li>
-		<li><a href="#">Tips</a></li>
-		<li><a href="#">Shortcuts</a></li>
-		<li><a href="#">Tricks</a></li>
-	</ul>
+			<ul class="deeplinks">
+				<li class="linksfornav"><a href="#top">TOP</a></li>
+				<li class="linksfornav"><a href="#news">News</a></li>
+				<li class="linksfornav"><a href="#dev">DEV</a></li>
+				<li class="linksfornav"><a href="#tips">Tips and Tricks</a></li>
+				<li class="linksfornav"><a href="#shortcuts">Shortcuts</a></li>
+		
+			</ul>
 	<figure class="facebook">
 
 	</figure>
 	<figure class="twitter">
 
 	</figure>
-	<figure class="help">
-	</figure>
+		<figure class="help">
+		</figure>
 </nav>
-<section class="aboutsite">
-	<div class="aboutbox">
-	<h2 class="abouttitle">About ANFODROID</h2>
-	<p class="aboutcontent">Anfodroid contains everything you need in the android world. it has tip,trick ,shortcuts,news, development tools and explanation that will help you navigate through the android world. this is android home.</p>
-</div>
-</section>
-
-
-</header>
-<div class="background_color">
+<header>
+	<section class="aboutsite">
+		<div class="aboutbox">
+			<h2 class="abouttitle">About ANFODROID</h2>
+			<p class="aboutcontent">Anfodroid contains everything you need in the android world. it has tip,trick ,shortcuts,news, development tools and explanation that will help you navigate through the android world. this is android home.</p>
+		</div>
+	</section>
+		</header>
+	<section class="container">
+	<h2 class="newscolumntitle newsline" id="news">News</h2>
 	<section class="features">
 	<div class="news">
-		<div class="firstnewscolume">
+		<div class="newscolumn">
 		<h3 class="newstitle">
 			New shots of HTC Butterfly S with dual-sim slots pop up on Twitter
 		</h3>
@@ -51,7 +52,7 @@
 			source: leakschina
 		</p>
 		</div>
-		<div class="secondnewscolume">
+		<div class="newscolumn">
 			<h3 class="newstitle">
 				Motorola hints at fast Moto X camera
 			</h3>
@@ -62,30 +63,32 @@
 
 			</p>
 		</div>
-		<div class="thirdnewscolume">
+		<div class="newscolumn">
 			<h3 class="newstitle">
 				Grab a 16 GB Nexus 7 for $149 through Staples or 32 GB for $169
 			</h3>
 			<p class="newscontent">
-				I know what you’re thinking. Another Nexus 7 deal? Yep, these things are hitting are hitting the sale rack just about every week as we wait for Google to announce something to replace it. If you don’t mind not having the latest and greatest, though, Staples is selling the Nexus 7 for as little as $149 for the 16 GB, or $169 for the 32 GB with a coupon code. This is one of the lowest prices the tablet has dipped to, so if you’ve been meaning to pick one up, jump on this deal. These are also brand new, so no refurbished devices. Hit the links below to check it out if you want, and remember to use the code 20098 for the lowest possible price.
+				I know what you’re thinking. Another Nexus 7 deal? Yep, these things are hitting are hitting the sale rack just about every week as we wait for Google to announce something to replace it. If you don’t mind not having the latest and greatest, though, Staples is selling the Nexus 7 for as little as $149 for the 16 GB, or $169 for the 32 GB with a coupon code. This is one of the lowest prices the tablet has dipped to, so if you’ve been meaning to pick one up, jump on this deal.
 			</p>
 		</div>
 	</div>
+	</section>
+	<h2 class="newscolumntitle devline" id="dev">Development</h2>
 	<div class="dev">
 		<div class="firstdevcolumn">
 			<div class="featurepic">
-				<img src="android_hello_world.png" width="100%" height="100%">
+				<img src="android_hello_world.png" alt="android sdk" width="200" height="180">
 			</div>
 			<h2 class="featuretitle"  >
 				What is Android SDK?
-			</h2 class="featuretitle" >
+			</h2>
 			<div class="featurecontent">
-					Everyone wants to program on Android; unfortunately, not everyone knows quite how to get started with their development environment. Google has put out both the Android SDK and the Android ADT in order to help developers integrate Android into their dev environment as well as facilitate more Android development. In this guide, we’ll take a look at how to set up a development environment for Android so you can start creating projects. Android SDK and Android ADT are essentials that you will need to include in your Android Developer Toolbox for use with many things, and can be a very powerful set of components from the simple, to the complicated. When it comes to Android modding, most novice users are confused or left wondering by reference over reference to a certain “adb”. This is specially true when you are looking up something on modding your device, or root it in particular. ADB is the wonder toy of Android and everyone seems to love it, so lets have a look at understanding what it is and why you need it, and how you can get it.
+					Everyone wants to program on Android; unfortunately, not everyone knows quite how to get started with their development environment. Google has put out both the Android SDK and the Android ADT in order to help developers integrate Android into their dev environment as well as facilitate more Android d
 			</div>
 		</div>
 		<div class="seconddevcolumn">
 			<div class="featurepic">
-				<img src="unnamed.jpg" width="100%" height="100%">	
+				<img src="unnamed.jpg" alt="aide" width="200" height="180">	
 			</div>
 			<h2 class="featuretitle" >
 					what is  AIDE - THE IDE FOR ANDROID ?
@@ -97,66 +100,80 @@
 			</div>
 		</div>
 	</div>
+	<h2 class="newscolumntitle tipline" id="tips">Tips & Tricks</h2>
 		<div class="tips_and_tricks">
+		
 			<div class="featurepic">
-					<img src="Screen-Shot-2013-01-04-at-15.23.58.jpg" width="100%" height="100%">
+					<img src="Screen-Shot-2013-01-04-at-15.23.58.jpg" alt="google search" width="200" height="180">
 			</div>
 			<h2 class="featuretitle"  >
 				 Improve Google Now cards (Jelly Bean)
 			</h2>
 			<div class="featurecontent">
 					<p>
-						Google Now is pretty useful right out of the box -- the more you use it, the better it will get at serving up useful information in an appropriate way (like pulling traffic and calendar information to figure out how long it'll take you to drive to your next engagement, for example). But if you're finding Google Now's abilities a little limited, try enabling Web history to give it more data to pull from. Visit history.google.com and click "Turn Web history on.” Before too long you'll be able to use Google Now for things such as sports scores and flight information. The service learns pretty quickly, too. For example, you'll find it letting you know what time you need to leave your house in order to make a flight. If the notifications become too distracting, you can adjust the priority level of each one from the Google Now screen. Just tap the three dots on the right side of the card to set it as normal (the phone will alert you with updates), low priority (the information will show up on the Google Now screen, but won't otherwise announce itself), or off.
+						Google Now is pretty useful right out of the box -- the more you use it, the better it will get at serving up useful information in an appropriate way (like pulling traffic and calendar information to figure out how long it'll take you to drive to your next engagement, for example). But if you're finding Google Now's abilities a little limited, try enabling Web history to give it more data to pull from. Visit history.google.com and click "Turn Web history on.” Before too long you'll be able to use Google Now for things such as sports scores and flight information. The service learns pretty quickly, too. 
 					</p>
 			</div>
 			<div class="seconddevcolumn">
 			<div class="featurepic">
-					<img src="Galaxy-Nexus-Voice-Typing.jpg" width="100%" height="100%">
+					<img src="Galaxy-Nexus-Voice-Typing.jpg" alt="voie typing" width="200" height="180">
 			</div>
-			<h2 class="featuretitle" >
+				<h2 class="featuretitle" >
 					Offline voice typing (Jelly Bean)
-			</h2>
-			<div class="featurecontent">
-			<p>
-				One of the big improvements in Jelly Bean was the ability to let your phone or tablet convert your speech to text. Phones have done that for a while now, but it generally meant sending your input over the air, doing the decoding in the cloud, and showing the result on your device. Android can now do the text generation itself -- which makes it a speedier process, and possible even without an Internet connection. Head over to "Language and Input" in the Settings app, then choose "Download offline speech recognition" under the "Voice Search" heading. You'll be prompted to download a language pack for each language you want Android to recognize; once that's done you'll be able to dictate text even if Google's servers go down or you've got poor reception.
-			</p>
-			</div>	
-			</div>
-			<div class="shortcut">
-				<div class="featurepic">
-				<img src="android-confirm-app-uninstall.png" width="100%" height="100%">
-			</div>
-			<h2 class="featuretitle"  >
-				Long-press to uninstall
-			</h2>
-			<div class="featurecontent">
-			<p>
-				Long-pressing on an app within the app drawer lets you drag it to a Home screen, but it also pops up a couple of menus along the top of the screen. App Info gives you the boring technical stuff about how much memory it's taking up, or you can fling it off the other way to uninstall it.
-			</p>
-			</div>
-			<div class="seconddevcolumn">
-			<div class="featurepic">
-					<img src="stop-apps-from-automatically-appearing-on-your-home-screen.jpg" width="100%" height="100%">
-			</div>
-			<h2 class="featuretitle" >
-					Stop app icons automatically appearing
-			</h2>
-			<div class="featurecontent">
-			<p>
-				One of the many new ICS features is the way Google lets apps automatically add shortcuts to themselves on your Home screen when they've finished installing. It's useful, but if you're a control freak and wish to remain 100% in charge of your Home layout, head to the Google Play app's settings tab and untick the Auto-add Shortcuts toggle.
-			</p>
+				</h2>
+				<div class="featurecontent">
+					<p>	
+						One of the big improvements in Jelly Bean was the ability to let your phone or tablet convert your speech to text. Phones have done that for a while now, but it generally meant sending your input over the air, doing the decoding in the cloud, and showing the result on your device. Android can now do the text generation itself -- which makes it a speedier process, and possible even without an Internet connection. Head over to "Language and Input" in the Settings app, then choose "Download offline speech recognition" under the "Voice Search" heading. You'll be prompted to download a language pack for each language you want Android to recognize; once that's done you'll be able to dictate text.
+					</p>
+				</div>	
 			</div>
 			</div>
-			
-	<section class="video">
-			<iframe class="videotutorial" width="560" height="315" src="//www.youtube.com/embed/1FmIjQRmZ4Q" frameborder="0" allowfullscreen></iframe>
-		<h2 class="videotitle">
+				<h2 class="newscolumntitle shortline" id="shortcuts">Shortcuts</h2>
+		<div class="shortcut">
+					<div class="featurepic">
+						<img src="android-confirm-app-uninstall.png" alt="uninstalling" width="200" height="180">
+					</div>
+						<h2 class="featuretitle"  >
+								Long-press to uninstall
+						</h2>
+				<div class="featurecontent">
+					<p>
+						Long-pressing on an app within the app drawer lets you drag it to a Home screen, but it also pops up a couple of menus along the top of the screen. App Info gives you the boring technical stuff about how much memory it's taking up, or you can fling it off the other way to uninstall it.
+					</p>
+			</div>
+				<div class="seconddevcolumn">
+					<div class="featurepic">
+							<img src="stop-apps-from-automatically-appearing-on-your-home-screen.jpg" alt="stop apps apearing on the sreen" width="200" height="180">
+					</div>
+						<h2 class="featuretitle" >
+							Stop app icons automatically appearing
+					</h2>
+						<div class="featurecontent">
+							<p>
+								One of the many new ICS features is the way Google lets apps automatically add shortcuts to themselves on your Home screen when they've finished installing. It's useful, but if you're a control freak and wish to remain 100% in charge of your Home layout, head to the Google Play app's settings tab and untick the Auto-add Shortcuts toggle.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+<footer class="footer">
+	<div class="footercontent">
+		© COPYRIGHT 
+	</div>
+	<ul class="deeplinksfooter">
+			<li class="linksforfooter"><a href="">TOP</a></li>
+			<li class="linksforfooter"><a href="http://www.crunchbase.com/product/iphone">Info on Iphone</a></li>
+			<li class="linksforfooter"><a href="http://www.windowsphone.com/en-us">Info on WP8</a></li>
+			<li class="linksforfooter"><a href="http://developer.android.com/index.html">DEV Help</a></li>
+	</ul>
+	<figure class="facebookfooter">
 
-		</h2>
-		<div class="videodescription">
+	</figure>
+	<figure class="twitterfooter">
 
-		</div>
-	</section>
+	</figure>
+	<figure class="helpfooter">
+	</figure> -->
 
 </footer>
 </body>
